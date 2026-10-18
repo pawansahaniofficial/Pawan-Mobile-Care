@@ -175,7 +175,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-lg sm:text-xl tracking-tight text-slate-900 dark:text-white">
-                  PAWAN <span className="text-sky-600 dark:text-sky-400">MOBILE</span>
+                  PAWAN Mobile <span className="text-sky-600 dark:text-sky-400">Care</span>
                 </span>
                 <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm bg-sky-100 text-sky-700 dark:bg-sky-950 dark:text-sky-300 border border-sky-200 dark:border-sky-800 uppercase tracking-widest hidden sm:inline-block">
                   Manawa Bazar
