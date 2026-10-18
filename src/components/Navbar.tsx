@@ -116,7 +116,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
               className="flex items-center gap-1.5 hover:text-sky-400 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-sky-400" />
-              <span>+977-9812345678</span>
+              <span>+977-9802871587</span>
             </a>
             {/* WhatsApp Audio Call Trigger */}
             <button
@@ -178,7 +178,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
                   PAWAN <span className="text-sky-600 dark:text-sky-400">MOBILE</span>
                 </span>
                 <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm bg-sky-100 text-sky-700 dark:bg-sky-950 dark:text-sky-300 border border-sky-200 dark:border-sky-800 uppercase tracking-widest hidden sm:inline-block">
-                  NEPAL
+                  Manawa Bazar
                 </span>
               </div>
             </div>
