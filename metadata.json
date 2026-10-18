@@ -1,0 +1,8 @@
+{
+  "name": "Remix Pawan Mobile Repairing Center",
+  "description": "Nepal\u0027s trusted mobile phone repairing service and mobile accessories store. Expert smartphone diagnosis, genuine parts, eSewa and Khalti payments, and fast doorstep delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
