@@ -143,11 +143,11 @@ export const CustomerReviewsSection: React.FC<CustomerReviewsSectionProps> = ({ 
             </div>
 
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight">
-              Trusted by Thousands of Smartphone Users Across Nepal
+              Trusted by Thousands of Smartphone Users Across Manawa Bazar
             </h2>
 
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-xl">
-              From microscopic motherboard repair in Biratnagar to fast-couriered GaN chargers in Kathmandu and Pokhara. See what real device owners have to say about our 30-minute turnarounds, transparent pricing, and 180-day warranty.
+              From microscopic motherboard repair in Manawa Bazar to fast-couriered GaN chargers in Parsa. See what real device owners have to say about our 30-minute turnarounds, transparent pricing, and 90-day warranty.
             </p>
 
             {/* Quick Metrics Pills */}
@@ -162,7 +162,7 @@ export const CustomerReviewsSection: React.FC<CustomerReviewsSectionProps> = ({ 
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700/80 text-xs">
                 <MapPin className="w-4 h-4 text-purple-400" />
-                <span className="font-semibold text-slate-200">Koshi to Bagmati Coverage</span>
+                <span className="font-semibold text-slate-200">Jeetpur to Thori Coverage</span>
               </div>
             </div>
           </div>
@@ -365,7 +365,7 @@ export const CustomerReviewsSection: React.FC<CustomerReviewsSectionProps> = ({ 
                       </h4>
                       <p className="text-[11px] text-slate-500 dark:text-slate-400 flex items-center gap-1">
                         <MapPin className="w-3 h-3 text-slate-400" />
-                        <span>{rev.location || 'Nepal'}</span>
+                        <span>{rev.location || 'Manawa Bazar'}</span>
                       </p>
                     </div>
                   </div>
