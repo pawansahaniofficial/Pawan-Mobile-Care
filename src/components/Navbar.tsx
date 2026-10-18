@@ -181,9 +181,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
                   NEPAL
                 </span>
               </div>
-              <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium tracking-wide">
-                Repairing Center & Accessories
-              </p>
             </div>
           </button>
 
