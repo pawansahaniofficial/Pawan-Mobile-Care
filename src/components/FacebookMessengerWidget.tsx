@@ -69,7 +69,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
     {
       id: 'msg-02',
       sender: 'technician',
-      text: 'You can ask for instant repair cost estimates, book a technician, or click the Call button above to speak with Pawan Dai directly!',
+      text: 'You can ask for instant repair cost estimates, book a technician, or click the Call button above to speak with Pawan directly!',
       time: 'Just now',
       status: 'read'
     }
@@ -179,16 +179,16 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
           'Battery drainage issues are typically resolved with our Grade-A high capacity battery swap in 20 minutes (NPR 1,200 - 3,500 depending on model). Charging port pins can also be micro-soldered for NPR 600 - 1,200.';
       } else if (lower.includes('water') || lower.includes('liquid') || lower.includes('dead') || lower.includes('motherboard')) {
         replyText =
-          '⚠️ Water damage emergency: Please DO NOT plug your phone into a charger! Bring it immediately to our Biratnagar shop or schedule emergency courier pickup so we can treat it with our ultrasonic cleaning tank and recover your data.';
+          '⚠️ Water damage emergency: Please DO NOT plug your phone into a charger! Bring it immediately to our Manawa Bazar shop or schedule emergency courier pickup so we can treat it with our ultrasonic cleaning tank and recover your data.';
       } else if (lower.includes('price') || lower.includes('cost') || lower.includes('rate') || lower.includes('kati')) {
         replyText =
           'Our diagnosis is 100% free! Transparent estimates: Screens from NPR 1,800, Batteries from NPR 1,200, Charging Ports from NPR 600, Motherboard BGA from NPR 2,500. You only pay after you approve the SMS quote!';
       } else if (lower.includes('location') || lower.includes('where') || lower.includes('shop') || lower.includes('address')) {
         replyText =
-          '📍 Pawan Mobile Repairing Center is located on Main Road, Biratnagar, Nepal (near Central Market). Open 9:00 AM to 8:00 PM daily. We also offer doorstep courier pickup across Kathmandu Valley and Nepal!';
+          '📍 Pawan Mobile Repairing Center is located on Main Road, Manawa Bazar, Parsa 1 (near Chautara). Open 9:00 AM to 8:00 PM daily. We also offer doorstep courier pickup across Manawa Bazar and Parsa-1!';
       } else {
         replyText =
-          'Thank you for your message! Pawan Dai or one of our senior technicians is reviewing your request. You can also call us directly at +977-9812345678 or tap the Call button above!';
+          'Thank you for your message! Pawan or one of our senior technicians is reviewing your request. You can also call us directly at +977-9802871587 or tap the Call button above!';
       }
 
       const replyMsg: Message = {
@@ -267,7 +267,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
             </div>
             <div>
               <p className="font-bold text-sky-600 dark:text-sky-400">
-                Pawan Dai · Master Technician
+                Pawan · Master Technician
               </p>
               <p className="text-[11px] text-slate-600 dark:text-slate-300 mt-0.5">
                 Namaste! Need quick repair advice or price quote? Tap to chat or call live!
@@ -323,7 +323,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
               <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
-                  alt="Pawan Kumar"
+                  alt="Pawan Sahani"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
                 <span className="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-400 border-2 border-white" />
@@ -335,7 +335,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
                 </h3>
                 <p className="text-[10px] text-sky-100 flex items-center gap-1">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-300 animate-pulse" />
-                  <span>Active Now · Pawan Dai</span>
+                  <span>Active Now · Pawan </span>
                 </p>
               </div>
             </div>
@@ -384,7 +384,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
                     <span className="text-[11px] font-mono tracking-widest uppercase text-sky-400">
                       {callType === 'video' ? 'LIVE VIDEO BENCH' : 'MESSENGER AUDIO CALL'}
                     </span>
-                    <h4 className="text-lg font-bold">Pawan Kumar (Shop Owner)</h4>
+                    <h4 className="text-lg font-bold">Pawan Sahani (Shop Owner)</h4>
                     <p className="text-xs text-slate-400">
                       {callState === 'calling' && 'Ringing Pawan Mobile Lab...'}
                       {callState === 'connected' && `Call in progress · ${formatDuration(callDuration)}`}
@@ -403,7 +403,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
                       )}
                       <img
                         src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80"
-                        alt="Pawan Kumar"
+                        alt="Pawan Sahani"
                         className="w-24 h-24 rounded-full border-4 border-sky-500 object-cover shadow-2xl relative z-10"
                       />
                     </div>
@@ -415,10 +415,10 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
 
                     {/* Direct phone fallback link */}
                     <a
-                      href="tel:+977-9812345678"
+                      href="tel:+977-9802871587"
                       className="mt-2 text-[11px] text-sky-300 underline hover:text-white flex items-center gap-1"
                     >
-                      <span>Prefer Direct Phone Dial (+977-9812345678)?</span>
+                      <span>Prefer Direct Phone Dial (+977-9802871587)?</span>
                       <ExternalLink className="w-3 h-3" />
                     </a>
                   </div>
@@ -461,7 +461,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
                 {/* Notice banner */}
                 <div className="text-center py-1">
                   <span className="text-[10px] text-slate-400 bg-slate-200/60 dark:bg-slate-800/60 px-2.5 py-0.5 rounded-full font-mono">
-                    Facebook Messenger Live Support · Biratnagar / Kathmandu
+                    Facebook Messenger Live Support · Manawa Bazar / Parsa
                   </span>
                 </div>
 
@@ -552,7 +552,7 @@ export const FacebookMessengerWidget: React.FC<FacebookMessengerWidgetProps> = (
 
                 {/* Direct Dial WhatsApp Shortcut */}
                 <a
-                  href="https://wa.me/9779812345678"
+                  href="https://wa.me/9779802871587"
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Chat directly on WhatsApp"
